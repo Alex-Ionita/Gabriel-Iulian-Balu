@@ -6,43 +6,57 @@ seo:
   title: Homepage
   description:
   keywords:
+dezvoltare-personala: /images/carousel/dezvoltare-personala.jpeg
+educatie-financiara: /images/carousel/educatie-financiara.jpeg
+investitii: /images/carousel/investitii.jpeg
+e-book: https://source.unsplash.com/random
 ---
 
 <!------------------ IMG Banner ------------------>
 
 <section>
-    <div class="backgroung-img"></div>
-    <div>
-        <h2> Investeste cu cap :) </h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ex laudantium commodi quasi. </p>
+    <div class="grid-middle-center banner-img center height-100 bg-overlay">
+        <div class="col-10">
+            <h2> Investeste cu cap :) </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p> Voluptas ex laudantium commodi quasi. </p>
+        </div>
     </div>
 </section>
 
-<!------------------ 3 Services Slides ------------------>
+<!------------------ 3 Category Slides ------------------>
 
-<section>
-    <div>
-        <div class="services-img"></div>
+<section class="padded capped-width">
+    <div class="category">
         <div>
-            <h4> Dezvoltare Personala </h4>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aspernatur neque obcaecati voluptas, totam, facere atque aliquam ipsum velit voluptates delectus. Exercitationem nemo provident similique, perspiciatis quas laudantium assumenda saepe. </p>
-            <a href="#"> Mai mult... </a>
+            <div class="grid-middle-center padded">
+                <div class="col-4 carousel-img" style="background-image:url('{{page.dezvoltare-personala}}')"></div>
+                <div class="col-7 padded">
+                    <h4> Dezvoltare Personala </h4>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aspernatur neque obcaecati voluptas, totam, facere atque aliquam ipsum velit voluptates delectus. Exercitationem nemo provident similique, perspiciatis quas laudantium assumenda saepe. </p>
+                    <a href="#" class="button"> Mai mult... </a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div>
-        <div class="services-img"></div>
         <div>
-            <h4> Educatie Financiara </h4>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aspernatur neque obcaecati voluptas, totam, facere atque aliquam ipsum velit voluptates delectus. Exercitationem nemo provident similique, perspiciatis quas laudantium assumenda saepe. </p>
-            <a href="#"> Mai mult... </a>
+            <div class="grid-middle-center padded">
+                <div class="col-4 carousel-img" style="background-image:url('{{page.educatie-financiara}}')"></div>
+                <div class="col-7 padded">
+                    <h4> Educatie Financiara </h4>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aspernatur neque obcaecati voluptas, totam, facere atque aliquam ipsum velit voluptates delectus. Exercitationem nemo provident similique, perspiciatis quas laudantium assumenda saepe. </p>
+                    <a href="#" class="button"> Mai mult... </a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div>
-        <div class="services-img"></div>
         <div>
-            <h4> Investitii </h4>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aspernatur neque obcaecati voluptas, totam, facere atque aliquam ipsum velit voluptates delectus. Exercitationem nemo provident similique, perspiciatis quas laudantium assumenda saepe. </p>
-            <a href="#"> Mai mult... </a>
+            <div class="grid-middle-center padded">
+                <div class="col-4 carousel-img" style="background-image:url('{{page.investitii}}')"></div>
+                <div class="col-7 padded">
+                    <h4> Investitii </h4>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint aspernatur neque obcaecati voluptas, totam, facere atque aliquam ipsum velit voluptates delectus. Exercitationem nemo provident similique, perspiciatis quas laudantium assumenda saepe. </p>
+                    <a href="#" class="button"> Mai mult... </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -50,36 +64,58 @@ seo:
 <!------------------ E-Book ------------------>
 
 <section>
-    <section>
-        <div>
-            <h3> E-Book </h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero soluta rem doloribus commodi repellat animi minima amet dolore odio veritatis minus pariatur possimus, eos ex sint eum optio sed in. </p>
+    <div class="grid-middle small-banner">
+        <div class="col-12 center padded-sm ">
+            <h3 class="emphasize"> E-Book </h3>
+            <p class="padded-lr capped-width"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero soluta rem doloribus commodi repellat animi minima amet dolore odio veritatis minus pariatur possimus, eos ex sint eum optio sed in. </p>
         </div>
-    </section>
-    <section>
-        <div>
-            <div class="e-book-img"></div>
-            <h4> Lorem Ipsum </h4>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ea aut molestias, accusantium magni ipsa eaque ipsum ratione temporibus maxime quas necessitatibus possimus quidem commodi laudantium, maiores cum asperiores itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo dolor nemo! In dolor aliquid eius temporibus. Dolorum distinctio minima, explicabo, obcaecati rerum, ut et sit sapiente molestiae corrupti neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis architecto minima eius accusantium modi, fuga aliquid odit quis reiciendis doloribus at voluptatibus repudiandae sunt iure temporibus sed alias magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vero repellat dolor explicabo! Exercitationem fugiat, cupiditate consequatur nisi provident dolorem in assumenda ex qui pariatur ut libero veritatis vitae nostrum! </p>
+    </div>
+    <div class=" padded capped-width">
+        <div class="padded-lr">
+            <p>
+                <img src="{{page.e-book}}" alt="e-book-gabriel-iulian-balu" class="e-book-img padded-1">
+                <h4 class="padded-t-2 margin-b-2"> Lorem Ipsum </h4>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ea aut molestias, accusantium magni ipsa eaque ipsum ratione temporibus maxime quas necessitatibus possimus quidem commodi laudantium, maiores cum asperiores itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo dolor nemo! In dolor aliquid eius temporibus. Dolorum distinctio minima, explicabo, obcaecati rerum, ut et sit sapiente molestiae corrupti neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis architecto minima eius accusantium modi, fuga aliquid odit quis reiciendis doloribus at voluptatibus repudiandae sunt iure temporibus sed alias magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vero repellat dolor explicabo! Exercitationem fugiat, cupiditate consequatur nisi provident dolorem in assumenda ex qui pariatur ut libero veritatis vitae nostrum!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ea aut molestias, accusantium magni ipsa eaque ipsum ratione temporibus maxime quas necessitatibus possimus quidem commodi laudantium, maiores cum asperiores itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illo dolor nemo! In dolor aliquid eius temporibus. Dolorum distinctio minima, explicabo, obcaecati rerum, ut et sit sapiente molestiae corrupti neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corporis architecto minima eius accusantium modi, fuga aliquid odit quis reiciendis doloribus at voluptatibus repudiandae sunt iure temporibus sed alias magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vero repellat dolor explicabo! Exercitationem fugiat, cupiditate consequatur nisi provident dolorem in assumenda ex qui pariatur ut libero veritatis vitae nostrum!
+            </p>
         </div>
-    </section>
-    <section>
-        <div>
+    </div>
+    <div class="grid-middle">
+        <div class="col-12 center">
             <form action="#" method="POST">
                 <input type="email" name="_replyto" id="_replyto" placeholder="Email" required />
+                <br>
                 <button type="submit"> Descarca </button>
             </form>
         </div>
-    </section>
+    </div>
 </section>
 
 <!------------------ Testimonials Slide ------------------>
 
-<section>
-    <div>
-        <span> " </span>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit saepe iusto modi ipsa velit veritatis recusandae, reiciendis numquam voluptatum! Expedita dolor harum blanditiis, nobis iusto amet dolores dolorem odio. </p>
-        <span> " </span>
+<section class="capped-width">
+    <div class="testimonials">
+        <div>
+            <div class="grid-top-center padded">
+                <span class="col-1 center"> " </span>
+                <p class="col-8 center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit saepe iusto modi ipsa velit veritatis recusandae, reiciendis numquam voluptatum! Expedita dolor harum blanditiis, nobis iusto amet dolores dolorem odio. </p>
+                <span class="col-1 center"> " </span>
+            </div>
+        </div>
+        <div>
+            <div class="grid-top-center padded">
+                <span class="col-1 center"> " </span>
+                <p class="col-8 center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit saepe iusto modi ipsa velit veritatis recusandae, reiciendis numquam voluptatum! Expedita dolor harum blanditiis, nobis iusto amet dolores dolorem odio. </p>
+                <span class="col-1 center"> " </span>
+            </div>
+        </div>
+        <div>
+            <div class="grid-top-center padded">
+                <span class="col-1 center"> " </span>
+                <p class="col-8 center"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit saepe iusto modi ipsa velit veritatis recusandae, reiciendis numquam voluptatum! Expedita dolor harum blanditiis, nobis iusto amet dolores dolorem odio. </p>
+                <span class="col-1 center"> " </span>
+            </div>
+        </div>
     </div>
 </section>
 
