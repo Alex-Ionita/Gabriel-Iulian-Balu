@@ -6,6 +6,21 @@ $(document).ready(function(){
     });
     $('.testimonials').slick({
         dots: true,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 500,
+        pauseOnDotsHover: true
+    });
+    $('.ss-examples').slick({
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 500,
+        pauseOnDotsHover: true
     });
 });
