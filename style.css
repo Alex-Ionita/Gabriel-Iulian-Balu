@@ -60,6 +60,12 @@ html { scroll-behavior: smooth;}
 .padded-l-0 { padding-left: 0; }
 .padded-r-0 { padding-bottom: 0; }
 
+#padded {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 /******************** Margin ********************/
 
 .margin-t { margin-top: 5%; }
@@ -232,6 +238,13 @@ header a { display: inline-block; }
     padding-bottom: 40%
 }
 
+.book-img {
+    background-size: cover;
+    background-position: center;
+    background-color: #202a3f;
+    padding-bottom: 25%
+}
+
 .example-img {
     background-size: cover;
     background-position: center;
@@ -330,4 +343,19 @@ form button:hover {
     background-color: #202a44;
     color: #ffc720;
     border: 1.5px solid #202a44;
+}
+
+/******************** Miscelaneous ********************/
+
+.copyright {
+    background-color: rgb(80,80,85);
+    color: antiquewhite;
+}
+
+.socials {
+    font-size: 1.5rem;
+}
+
+.socials a {
+    margin-left: 0.5rem;
 }
