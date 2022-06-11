@@ -203,6 +203,10 @@ color: #202a44;
 header {
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px;
+    transition: 0.5s;
     /* background-color: #202a44; */
     z-index: 1;
 }
