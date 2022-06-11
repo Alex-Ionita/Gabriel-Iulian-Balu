@@ -18,6 +18,7 @@ html { scroll-behavior: smooth;}
 .capped-width-narrow    { max-width: 1000px; margin: auto; }
 .capped-width-v-narrow  { max-width: 800px;  margin: auto; }
 
+.height-120 { min-height: 120vh;}
 .height-100 { min-height: 100vh;}
 .height-90  { min-height: 90vh;}
 .height-80  { min-height: 80vh;}
@@ -44,6 +45,7 @@ html { scroll-behavior: smooth;}
 
 .padded-tb  { padding-top: 5%; padding-bottom: 5%; }
 .padded-lr  { padding-left: 5%; padding-right: 5%; }
+.padded-lg-lr  { padding-left: 10%; padding-right: 10%; }
 
 .padded-t-1 { padding-top: 1rem; }
 .padded-b-1 { padding-bottom: 1rem; }
@@ -195,7 +197,7 @@ color: #202a44;
 .button:hover {
     background-color: #202a44;
     color: #ffc720;
-    border: 1.5px solid #202a44;
+    border: 1px solid #202a44;
 }
 
 /******************** Nav ********************/
@@ -207,15 +209,62 @@ header {
     left: 0;
     height: 100px;
     transition: 0.5s;
-    /* background-color: #202a44; */
     z-index: 1;
 }
 
-header nav a { padding: 0.3rem; }
+header div a { padding: 0.3rem; }
 header a { display: inline-block; }
+nav { transition: all 0.3s;}
 
 .logo {
     max-width: 4rem;
+}
+
+nav.black {
+    background-color: #202a44db;
+    padding: 0 5%;
+    color: white;
+}
+
+/******************** Diagonal Boxes ********************/
+
+.diagonal-box {
+    background-color: white;
+    transform: skewY(-10deg);
+    margin-top: -20vh;
+}
+
+.content {
+    transform: skewY(10deg);
+    margin-top: 6vh;
+}
+
+.diagonal-box2 {
+    background-color: #202a3f;
+    transform: skewY(10deg);
+    margin-top: -30vh;
+    padding-top: 35vh;
+    position: relative;
+    z-index: -1;
+    padding-bottom: 120px;
+    color: white;
+}
+
+.content2 {
+    transform: skewY(-10deg);
+    margin-top: 6vh;
+}
+
+.diagonal-box3 {
+    background-color: #202a3f;
+    transform: skewY(-10deg);
+    color: white;
+    margin-top: 70px;
+    padding-top: 100px;
+}
+
+.content3 {
+    transform: skewY(10deg);
 }
 
 /******************** Images & Video ********************/
@@ -276,6 +325,7 @@ header a { display: inline-block; }
 .small-banner {
     color: white;
     background-color: #202a3f;
+    position: relative;
 }
 
 .e-book-img {
@@ -346,10 +396,15 @@ form button {
 form button:hover {
     background-color: #202a44;
     color: #ffc720;
-    border: 1.5px solid #202a44;
+    border: 1px solid #202a44;
 }
 
-/******************** Miscelaneous ********************/
+/******************** Footer ********************/
+
+footer {
+    background-color: #202a44;
+    color: white;
+}
 
 .copyright {
     background-color: rgb(80,80,85);
