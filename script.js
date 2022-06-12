@@ -1,4 +1,6 @@
 
+AOS.init();
+
 $(window).on('scroll', function(){
     if ($(window).scrollTop()){
         $('nav').addClass('black');
@@ -33,5 +35,3 @@ $(document).ready(function(){
         pauseOnDotsHover: true
     });
 });
-
-AOS.init();
