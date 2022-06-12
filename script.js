@@ -1,5 +1,5 @@
 
-AOS.init();
+window.addEventListener('load', function() { AOS.init(); });
 
 $(window).on('scroll', function(){
     if ($(window).scrollTop()){
