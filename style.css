@@ -173,7 +173,16 @@ a {
     transition: all 0.2s;
 }
 
-a:hover { color: #ffc720; }
+.highlight:hover { color: #ffc720; }
+
+.book-img:hover {
+    border: 5px solid white;
+    padding: 5px;
+}
+
+.decoration-link { border-bottom: solid 2px #ffc720; }
+
+.highlight:hover { color: #ffc720; }
 
 .slick-prev:before,
 .slick-next:before {
@@ -233,7 +242,7 @@ header {
     left: 0;
     height: 100px;
     transition: 0.5s;
-    z-index: 1;
+    z-index: 99;
     color: white;
 }
 
@@ -268,8 +277,6 @@ nav.black {
     transform: skewY(10deg);
     margin-top: -30vh;
     padding-top: 35vh;
-    position: relative;
-    z-index: -1;
     padding-bottom: 120px;
     color: white;
 }
@@ -387,6 +394,8 @@ nav.black {
     width: 70vw;
     height: 40vw;
     max-height: 572px;
+    position: relative;
+    z-index: 1;
 }
 
 /******************** Form ********************/
@@ -400,6 +409,11 @@ form input {
     font-size: 0.9rem;
     border-radius: 5px;
     transition: all 0.2s;
+}
+
+.email-box {
+    min-width: 18rem;
+    text-align: center;
 }
 
 form input:focus { border-color: #ffc720 }
