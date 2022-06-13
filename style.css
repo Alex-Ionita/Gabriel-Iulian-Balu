@@ -114,33 +114,26 @@ html { scroll-behavior: smooth; }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
-h1 {
-    /* font-family: "Spartan", sans-serif; */
-    line-height: 1.1;
-    /* font-weight: 100; */
-}
-
-h2 {
+h1, h2, h3, h4, h5 {
     line-height: 1.1;
     margin-bottom: 3rem;
-    /* font-family: "Spartan", sans-serif; */
-    /* font-weight: 100; */
-}
-
-h3, h4, h5, h6 {
-    line-height: 1.1;
-    margin-bottom: 3rem;
-    /* font-family: "Spartan", sans-serif; */
-    /* font-weight: 100; */
+    font-family: "Yeseva One", cursive;
 }
 
 h1 {font-size: 1.8rem;}
 h2 {font-size: 3.1rem;}
 h3 {font-size: 1.8rem;}
 h4 {font-size: 1.5rem;}
+h5 {font-size: 1.3rem;}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
 
 p, li {
     line-height: 1.6; 
@@ -156,10 +149,16 @@ h6:last-child,
 p:last-child { margin-bottom: 0; }
 
 .emphasize {
-    /* font-family: "Bitter", serif; */
-    /* font-weight: 500; */
-    /* font-size: 1.3rem; */
+    font-family: "Yeseva One", cursive;
+    font-size: 1.3rem;
     color: #ffc720;
+}
+
+.line-height { line-height: 1.6; }
+
+.fa-solid, .fas {
+    font-size: 2.5rem;
+    color: #202a44;
 }
 
 /******************** Links and Buttons ********************/
@@ -167,7 +166,8 @@ p:last-child { margin-bottom: 0; }
 a {
     text-decoration: none;
     color: inherit;
-    transition: all 0.2s;
+    transition: all 0.3s;
+    border: 0px solid white;
 }
 
 .highlight:hover { color: #ffc720; }
@@ -186,7 +186,7 @@ a {
 color: #202a44;
 }
 .testimonials .slick-dots {
-    bottom: 40px;
+    bottom: 20px;
     color: #202a44;
 }
 
@@ -197,8 +197,8 @@ color: #202a44;
     border-radius: 50px;
     background-color: #ffc720;
     cursor: pointer;
-    transition: all 0.2s;
-    /* font-family: "Bitter", serif; */
+    transition: all 0.3s;
+    font-family: 'Roboto', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
     font-size: 0.9rem;
@@ -218,7 +218,7 @@ color: #202a44;
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.2s;
-    /* font-family: "Bitter", serif; */
+    font-family: 'Roboto', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
     font-size: 0.9rem;
@@ -229,6 +229,8 @@ color: #202a44;
     color: #ffc720;
     border: 1px solid #3d465c;
 }
+
+#transition { transition: all 0.4s; }
 
 /******************** Nav ********************/
 
@@ -409,7 +411,7 @@ form input {
 }
 
 .email-box {
-    min-width: 18rem;
+    min-width: 20rem;
     text-align: center;
 }
 
@@ -423,7 +425,7 @@ form button {
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.2s;
-    /* font-family: "Bitter", serif; */
+    font-family: 'Roboto', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
     font-size: 0.9rem;
@@ -447,13 +449,8 @@ footer {
     color: antiquewhite;
 }
 
-.socials {
-    font-size: 1.5rem;
-}
-
-.socials a {
-    margin-left: 0.5rem;
-}
+.socials { font-size: 1.5rem; }
+.socials a { margin-left: 0.5rem; }
 
 /******************** Responsive Styles ********************/
 
@@ -483,8 +480,11 @@ footer {
     h2 {font-size: 2.6rem;}
     h3 {font-size: 1.5rem;}
     h4 {font-size: 1.3rem;}
-    h5 {font-size: 0.9rem;}
+    h5 {font-size: 1.1rem;}
     p  {font-size: 1rem;  }
+
+    .fa-solid, .fas { font-size: 2rem; }
+    .testimonials .slick-dots { bottom: 0px; }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */
@@ -494,12 +494,21 @@ footer {
     .hide-xs { display: none;  }
 
     html { font-size: 0.8rem; }
-    h1 {font-size: 1.3rem;}
-    h2 {font-size: 1.5rem;}
+    h2 {font-size: 1.9rem;}
     h3 {font-size: 1.2rem;}
-    h4 {font-size: 1.3rem;}
-    h5 {font-size: 0.9rem;}
-    p  {font-size: 1rem;  }
+    h6 {font-size: 0.9rem;}
+
+    .fa-solid, .fas { font-size: 1.6rem; }
+    .video { width: 90vw; }
+    .swap { order: 2; }
+    .left-xs { text-align: left; }
+    .padded-t-xs { padding-top: 15%; }
+    .fa-brands { font-size: 1.7rem; }
+    .socials a {
+        margin-left: 0rem;
+        margin-right: 0.9rem;
+    }
+       
 }
 
 /******************** Miscellaneous ********************/

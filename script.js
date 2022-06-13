@@ -13,7 +13,15 @@ $(window).on('scroll', function(){
 $(document).ready(function(){
     $('.category').slick({
         dots: true,
-        arrows: true
+        arrows: true,
+        responsive: [
+            {
+              breakpoint: 577,
+              settings: {
+                arrows: false
+              }
+            }
+        ]
     });
     $('.testimonials').slick({
         dots: true,
