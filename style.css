@@ -112,10 +112,10 @@ html { scroll-behavior: smooth; }
 .right   { text-align: right; }
 .center  { text-align: center; }
 
-/* body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-} */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 
 h1 {
     /* font-family: "Spartan", sans-serif; */
@@ -507,4 +507,4 @@ footer {
 #about { overflow-y: hidden; }
 #home { overflow-y: hidden; }
 #header { overflow-y: hidden; }
-.content3 { overflow: hidden; }   
+.content3 { overflow: hidden; }
