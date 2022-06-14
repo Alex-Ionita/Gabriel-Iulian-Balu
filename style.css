@@ -508,7 +508,7 @@ footer {
         margin-left: 0rem;
         margin-right: 0.9rem;
     }
-       
+    .banner-img { background-attachment: scroll; }
 }
 
 /******************** Miscellaneous ********************/
