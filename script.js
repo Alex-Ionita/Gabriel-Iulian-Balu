@@ -28,7 +28,7 @@ $(document).ready(function(){
         arrows: false,
         autoplay: true,
         autoplaySpeed: 2000,
-        speed: 500,
+        speed: 1000,
         pauseOnDotsHover: true
     });
     $('.ss-examples').slick({
@@ -39,7 +39,15 @@ $(document).ready(function(){
         arrows: false,
         autoplay: true,
         autoplaySpeed: 2000,
-        speed: 500,
-        pauseOnDotsHover: true
+        speed: 1000,
+        pauseOnDotsHover: true,
+        responsive: [
+            {
+              breakpoint: 577,
+              settings: {
+                slidesToShow: 1
+              }
+            }
+        ]
     });
 });
