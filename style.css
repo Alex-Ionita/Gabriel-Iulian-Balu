@@ -196,7 +196,7 @@ color: #202a44;
 .button {
     display: inline-block;
     border: 1px solid #ffc720;
-    padding: 0.5rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     border-radius: 50px;
     background-color: #ffc720;
     cursor: pointer;
@@ -204,7 +204,7 @@ color: #202a44;
     font-family: 'Shippori Antique', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 .button:hover {
@@ -216,15 +216,15 @@ color: #202a44;
 .button-style2 {
     display: inline-block;
     border: 1px solid #ffc720;
-    padding: 0.5rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     border-radius: 50px;
     background-color: #ffc720;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.3s;
     font-family: 'Shippori Antique', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 .button-style2:hover {
@@ -246,7 +246,11 @@ header {
     overflow-x: hidden;
 }
 
-header div a { padding: 0.3rem; }
+header div a {
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
 header a { display: inline-block; }
 nav { transition: all 0.3s;}
 
@@ -408,13 +412,13 @@ form input {
     border: 2px solid #202a3f;
     outline: none;
     font-family: inherit;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     border-radius: 5px;
     transition: all 0.2s;
 }
 
 .email-box {
-    min-width: 20rem;
+    min-width: 23rem;
     text-align: center;
 }
 
@@ -423,7 +427,7 @@ form input:focus { border-color: #ffc720 }
 form button {
     display: inline-block;
     border: 1px solid #ffc720;
-    padding: 0.5rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     border-radius: 50px;
     background-color: #ffc720;
     cursor: pointer;
@@ -431,7 +435,7 @@ form button {
     font-family: 'Shippori Antique', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 form button:hover {
