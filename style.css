@@ -113,14 +113,14 @@ html { scroll-behavior: smooth; }
 .center  { text-align: center; }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     font-weight: 300;
 }
 
 h1, h2, h3, h4, h5 {
     line-height: 1.1;
     margin-bottom: 3rem;
-    font-family: "Yeseva One", cursive;
+    font-family: 'Shippori Antique', sans-serif;
 }
 
 h1 {font-size: 1.8rem;}
@@ -130,7 +130,7 @@ h4 {font-size: 1.9rem;}
 h5 {font-size: 1.4rem;}
 
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     font-size: 1.1rem;
     font-weight: 200;
 }
@@ -149,7 +149,7 @@ h6:last-child,
 p:last-child { margin-bottom: 0; }
 
 .emphasize {
-    font-family: "Yeseva One", cursive;
+    font-family: 'Shippori Antique', sans-serif;
     color: #ffc720;
 }
 .emphasize-size { font-size: 1.9rem; }
@@ -201,7 +201,7 @@ color: #202a44;
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.3s;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
     font-size: 0.9rem;
@@ -221,7 +221,7 @@ color: #202a44;
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.2s;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
     font-size: 0.9rem;
@@ -428,7 +428,7 @@ form button {
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.2s;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
     font-size: 0.9rem;
