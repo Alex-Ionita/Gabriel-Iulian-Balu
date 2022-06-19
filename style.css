@@ -433,7 +433,7 @@ form button {
     cursor: pointer;
     transition: all 0.2s;
     font-family: 'Rubik', sans-serif;
-    /* font-weight: 400; */
+    font-weight: 400;
     color: #202a44;
     font-size: 1.3rem;
 }
@@ -507,7 +507,6 @@ footer {
     .hide-xs { display: none;  }
 
     html { font-size: 0.8rem; }
-    /* h2 {font-size: 1.9rem;} */
     /* h3 {font-size: 1.2rem;} */
     /* h6 {font-size: 0.9rem;} */
 
@@ -516,6 +515,8 @@ footer {
     .swap { order: 2; }
     .left-xs { text-align: left; }
     .padded-t-xs { padding-top: 15%; }
+    .padded-xs-0 { padding: 0px; }
+    .padded-tb-xs { padding: 5% 0%; }
     /* .fa-brands { font-size: 1.7rem; } */
     .socials a {
         margin-left: 0rem;
