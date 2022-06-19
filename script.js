@@ -18,7 +18,8 @@ $(document).ready(function(){
             {
               breakpoint: 577,
               settings: {
-                arrows: false
+                arrows: false,
+                autoplay: true
               }
             }
         ]

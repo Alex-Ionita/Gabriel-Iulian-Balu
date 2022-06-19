@@ -113,14 +113,14 @@ html { scroll-behavior: smooth; }
 .center  { text-align: center; }
 
 body {
-    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
 
 h1, h2, h3, h4, h5 {
     line-height: 1.1;
     margin-bottom: 3rem;
-    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 h1 {font-size: 1.8rem;}
@@ -130,7 +130,7 @@ h4 {font-size: 1.9rem;}
 h5 {font-size: 1.4rem;}
 
 h6 {
-    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 1.1rem;
     font-weight: 200;
 }
@@ -149,7 +149,7 @@ h6:last-child,
 p:last-child { margin-bottom: 0; }
 
 .emphasize {
-    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: #ffc720;
 }
 .emphasize-size { font-size: 1.9rem; }
@@ -201,8 +201,8 @@ color: #202a44;
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.3s;
-    font-family: 'Shippori Antique', sans-serif;
-    /* font-weight: 400; */
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
     color: #202a44;
     font-size: 1.3rem;
 }
@@ -221,8 +221,8 @@ color: #202a44;
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.3s;
-    font-family: 'Shippori Antique', sans-serif;
-    /* font-weight: 400; */
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
     color: #202a44;
     font-size: 1.3rem;
 }
@@ -432,7 +432,7 @@ form button {
     background-color: #ffc720;
     cursor: pointer;
     transition: all 0.2s;
-    font-family: 'Shippori Antique', sans-serif;
+    font-family: 'Rubik', sans-serif;
     /* font-weight: 400; */
     color: #202a44;
     font-size: 1.3rem;
@@ -456,8 +456,8 @@ footer {
     color: antiquewhite;
 }
 
-.socials { font-size: 1.5rem; }
-.socials a { margin-left: 0.5rem; }
+.socials { font-size: 2.3rem; }
+.socials a { margin-left: 1.5rem; }
 
 /******************** Responsive Styles ********************/
 
@@ -484,11 +484,17 @@ footer {
     .show-sm { display: block; }
     .hide-sm { display: none;  }
 
-    h2 {font-size: 2.6rem;}
-    h3 {font-size: 1.5rem;}
-    h4 {font-size: 1.3rem;}
-    h5 {font-size: 1.1rem;}
-    p  {font-size: 1rem;  }
+    h2 {font-size: 4.1rem;}
+    h3 {font-size: 1.9rem;}
+    h4 {font-size: 1.6rem;}
+    h5 {font-size: 1.4rem;}
+    p  {font-size: 1.3rem;  }
+
+    .banner-text { font-size: 1.8rem; }
+    .emphasize-size { font-size: 1.7rem; }
+    .button,
+    .button-style2,
+    form button { font-size: 1.2rem; }
 
     .fa-solid, .fas { font-size: 2rem; }
     .testimonials .slick-dots { bottom: 0px; }
@@ -501,16 +507,16 @@ footer {
     .hide-xs { display: none;  }
 
     html { font-size: 0.8rem; }
-    h2 {font-size: 1.9rem;}
-    h3 {font-size: 1.2rem;}
-    h6 {font-size: 0.9rem;}
+    /* h2 {font-size: 1.9rem;} */
+    /* h3 {font-size: 1.2rem;} */
+    /* h6 {font-size: 0.9rem;} */
 
-    .fa-solid, .fas { font-size: 1.6rem; }
+    /* .fa-solid, .fas { font-size: 1.6rem; } */
     .video { width: 90vw; }
     .swap { order: 2; }
     .left-xs { text-align: left; }
     .padded-t-xs { padding-top: 15%; }
-    .fa-brands { font-size: 1.7rem; }
+    /* .fa-brands { font-size: 1.7rem; } */
     .socials a {
         margin-left: 0rem;
         margin-right: 0.9rem;
