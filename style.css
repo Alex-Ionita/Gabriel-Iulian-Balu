@@ -161,7 +161,7 @@ p:last-child { margin-bottom: 0; }
 
 .fa-solid, .fas {
     font-size: 2.5rem;
-    color: #202a44;
+    color: #0d0939;
 }
 
 /******************** Links and Buttons ********************/
@@ -186,11 +186,11 @@ a {
 
 .slick-prev:before,
 .slick-next:before {
-color: #202a44;
+color: #0d0939;
 }
 .testimonials .slick-dots {
     bottom: 20px;
-    color: #202a44;
+    color: #0d0939;
 }
 
 .button {
@@ -203,14 +203,14 @@ color: #202a44;
     transition: all 0.3s;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    color: #202a44;
+    color: #0d0939;
     font-size: 1.3rem;
 }
 
 .button:hover {
-    background-color: #202a44;
+    background-color: #0d0939;
     color: #ffc720;
-    border: 1px solid #202a44;
+    border: 1px solid #0d0939;
 }
 
 .button-style2 {
@@ -223,7 +223,7 @@ color: #202a44;
     transition: all 0.3s;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    color: #202a44;
+    color: #0d0939;
     font-size: 1.3rem;
 }
 
@@ -259,7 +259,7 @@ nav { transition: all 0.3s;}
 }
 
 nav.black {
-    background-color: #202a44db;
+    background-color: #0d0939db;
     padding: 0 5%;
     width: 100vw;
     overflow-x: hidden;
@@ -279,7 +279,7 @@ nav.black {
 }
 
 .diagonal-box2 {
-    background-color: #202a3f;
+    background-color: #0d0939;
     transform: skewY(10deg);
     margin-top: -20vw;
     padding-top: 20vw;
@@ -293,7 +293,7 @@ nav.black {
 }
 
 .diagonal-box3 {
-    background-color: #202a3f;
+    background-color: #0d0939;
     transform: skewY(-10deg);
     color: white;
     margin-top: 70px;
@@ -310,35 +310,35 @@ nav.black {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-color: #202a3f;
+    background-color: #0d0939;
     color: white;
 }
 
 .carousel-img {
     background-size: cover;
     background-position: center;
-    background-color: #202a3f;
+    background-color: #0d0939;
     padding-bottom: 34%
 }
 
 .affiliere-img {
     background-size: cover;
     background-position: center;
-    background-color: #202a3f;
+    background-color: #0d0939;
     padding-bottom: 40%
 }
 
 .book-img {
     background-size: cover;
     background-position: center;
-    background-color: #202a3f;
+    background-color: #0d0939;
     padding-bottom: 25%
 }
 
 .example-img {
     background-size: cover;
     background-position: center;
-    background-color: #202a3f;
+    background-color: #0d0939;
     padding-bottom: 20%;
     max-width: 20%;
 }
@@ -355,13 +355,13 @@ nav.black {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #202a4492;
+    background-color: #0d093992;
     z-index: -1;
 }
 
 .small-banner {
     color: white;
-    background-color: #202a3f;
+    background-color: #0d0939;
     position: relative;
 }
 
@@ -408,7 +408,7 @@ nav.black {
 form input {
     margin: 0.5rem 0;
     padding: 0.5rem;
-    border: 2px solid #202a3f;
+    border: 2px solid #0d0939;
     outline: none;
     font-family: inherit;
     font-size: 1.1rem;
@@ -433,7 +433,7 @@ form button {
     transition: all 0.2s;
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    color: #202a44;
+    color: #0d0939;
     font-size: 1.3rem;
 }
 
@@ -448,7 +448,7 @@ form button:hover {
 /******************** Footer ********************/
 
 footer {
-    background-color: #202a44;
+    background-color: #0d0939;
     color: white;
 }
 
